@@ -1,0 +1,25 @@
+There are 23 unique genres in the dataset.
+Here is the list of genres: 
+Lifestyle
+Food & Drink
+Catalogs
+Games
+Education
+Finance
+Navigation
+Travel
+Productivity
+Sports
+Social Networking
+Utilities
+Photo & Video
+Music
+Business
+Medical
+Book
+News
+Shopping
+Entertainment
+Health & Fitness
+Weather
+Reference
