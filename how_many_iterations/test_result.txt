@@ -1,0 +1,3 @@
+Here is the final verdict:
+>> Subject_1 time: 1.3613s. 
+>> Subject_2 time: 1.2679s. 
