@@ -33,6 +33,33 @@ This implementation needs always two, and only two genres, to return the average
 
 This is a limiting feature. Because, in the dataset, we have 23 unique categories, so what if I want to explore more or less than two genres?
 
+## Improving the design
+
+Two simple changes will allow us to address these issues.
+
+### Passing values
+
+Instead of hard coding the genres name, we pass the names using the argv variable. This allows us to easily change the name of the genres explored by copy pasting the names from the genres.txt file.
+
+### Catching a list
+
+By unpacking the argv values into a list, we can accept any number of genres to calculate the average.
+
+Then, since the ```in``` operator returns a boolean after searching a list, we can use this as the condition for our ```if``` statement as we filter throught categories and build our ratings list.
+
+## Next improvements
+
+The current design supports the calculation of the average rating. But, what if we want to explore the average price? Or the average number of user ratings?
+
+Whether we build our design to supports such questions depends on our expectations for the future. If we expect these questions to pop-up, then we need to build more flexibility or abstractions in our design.
+
+But, we are done for today. Thanks for reading and happy coding.
+
+All the best
+Pierre
+
+
+
 
 
 
