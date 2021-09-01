@@ -17,9 +17,23 @@ Now, especially if there is a tight deadline or the boss breathing down your nec
 
 What if the question changes a little bit? Maybe we want to explore other kinds of genres?
 
+## Roadblocks to changes
+
 A change in question is a change in requirements. So, does this mean that I need to re-write parts of my code? Well, it depends if your implementation was designed thinking about these possible changes.
 
-In the social_and_games_exploration.py, I see the following changes.
+In the social_and_games_exploration.py, I see the following roadblocks to changes in requirements/questions.
+
+### Hard-coded values
+
+The genres values are hard coded in the source. This means that each time I want to explore another category, I need to make edits to the source.
+
+### Limit to always/only two genres
+
+This implementation needs always two, and only two genres, to return the average rating.
+
+This is a limiting feature. Because, in the dataset, we have 23 unique categories, so what if I want to explore more or less than two genres?
+
+
 
 
 

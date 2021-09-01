@@ -1,0 +1,3 @@
+The genres analyzed are: 
+- Social Networking
+The average rating is 2.99
