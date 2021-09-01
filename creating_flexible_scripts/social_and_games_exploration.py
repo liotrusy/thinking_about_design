@@ -11,6 +11,7 @@ for app in apps_data[1:]:
         target_ratings.append(user_rating)
 
 average_rating = sum(target_ratings) / len(target_ratings)
-
+message = f"The average rating of Social Netowrking and Games is {average_rating:.2f}"
+print(message)
 
 
